@@ -528,7 +528,7 @@ public class NhanVienGUI extends JPanel {
                         arrTfInfor.get(1).requestFocus();
 
                     } else if (!isValidName(ten)) { // kiem tra hop le ten
-                        JOptionPane.showMessageDialog(null, "Tên không hợp lệ! Phải có ít nhất 1 khoảng trắng ở giữa", "Lỗi", JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Tên không hợp lệ!", "Lỗi", JOptionPane.ERROR_MESSAGE);
                         arrTfInfor.get(2).requestFocus();
 
                     } else if (!isValidPhoneNumber(sdt)) { // kiem tra hop le so dien thoai
